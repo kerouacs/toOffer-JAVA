@@ -3,7 +3,7 @@ class Solution {
         int res=nums[0];
         int sum=0;
         for(int n:nums){
-            if(sum<0){
+            if(sum<0){//sum是连续数组的和
                 sum=n;
             }else{
                 sum+=n;
